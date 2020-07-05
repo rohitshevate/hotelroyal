@@ -1,0 +1,117 @@
+{
+	margin: 0;
+	padding: 0;
+}
+.rel{
+	position:relative;
+	width:1340px;
+	height:645px;
+	background-color: bisque;
+}
+ul{
+	background-color: orange;
+	width:915px;
+	font-size: 21px;
+	padding:7px;
+	position:absolute;
+	top:137px;
+}
+
+	
+ul li 
+{	
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	border: 1px solid black;
+	padding:4px;
+	margin-left:6px;
+	color: white;
+	font-weight: bold;
+	transition: 0.6s ease;
+}
+ul li a:hover{
+	background-color: white;
+	color: black;
+}
+
+#title h1{
+	/*border: 1px solid white;*/
+	font-size: 100px;
+	/*padding:30px 180px 30px 180px;*/
+	/*background-color: bisque;*/
+	/*width:400px;*/
+	font-style: italic;
+	color: indigo;
+	position:absolute;
+	left:205px;
+	top:-50px;
+
+	
+}
+#title h2 {
+	font-size: 30px;
+	color: orange;
+	border-top-style: solid;
+	border-color:black;
+	border-width:1px;
+	width:1335px;
+	background-color: ivory;
+	/*width:350px;*/
+	position:absolute;
+	top:182px;
+	padding-top:15px;
+}
+#title h3 {
+	font-size:21px;
+	position:absolute;
+	top:250px;
+	left:50px;
+	
+}
+#title h5 a{
+	text-decoration: none;
+	position:absolute;
+	top:510px;
+	left:560px;
+	font-size: 25px;
+	color:black;
+	border: 1px solid orange;
+	background-color: orange;
+	padding:7px;
+	font-weight: bold;
+	animation-name:example;
+	animation-duration:0.8s;
+	animation-iteration-count:infinite;
+	/*transition: 0.6s ease;*/
+
+}
+@keyframes example{
+	from{color: black;}
+	to{color: white;}
+}
+#logo{
+	position:absolute;
+	left:933px;
+	
+}
+#logo1{
+	position:absolute;
+	
+}
+#footer p{
+	font-size:16px;
+	position:absolute;
+	bottom:0px;
+	left:85px;
+	border: 1px solid orange;
+	background-color: orange;
+	padding:7px 470px 7px 470px;
+}
+
+@media screen and (max-width:700px)
+{
+	#title{
+		background-color: none;
+}
